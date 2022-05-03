@@ -10,32 +10,47 @@
     <link rel="stylesheet" href="../style.css">
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="./Imagenes/Logo Hakuna mini.png" class="logo">
+    <!-- fuentes  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@900&family=Red+Rose:wght@500&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@900&family=Red+Rose:wght@500&display=swap" rel="stylesheet"> 
+    
  <title>Hakuna Web</title>
 </head>
 
 <body>
-   <header class="header">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="../Imagenes/Logo Hakuna.png" alt="logo leon"class="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div><h1>BIO </h1></div>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="display: flex; justify-content: flex-end">
-          <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="../index.html" >Home</a>
-            <a class="nav-link active" href="#">Bio</a>
-            <a class="nav-link" href="./Fotos y videos.html">Fotos y videos</a>
-            <a class="nav-link" href="./Fechas.html">Fechas</a>
-            <a class="nav-link" href="./Contacto.html">Contacto</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-   </header>
+  <header class="header">
+    <img src="../Imagenes/Logo Hakuna1.png" alt="Logo banda"class="logobanda">
+    <h1>BIO</h1 class="titulo">
+   <ul class="nav justify-content-center">
+     <li class="nav-item">
+       <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#">Bio</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#">Fotos</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="./videos.html">Videos</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#">Fechas</a>
+     <li class="nav-item">
+       <a class="nav-link" href="#">Contacto</a>
+     </li>
+     </li>
+   </ul>
+  </header>
    <main>
-       <section>
+     <div class="container-fluid">
+      <section><p class="textoBio"> Naciamos alla por el año 1995 dentro de las zonas de Florida y Villa Martelli, comenzando como una broma de juntarnos y hacer
+un poco de ruido y tocando lo que nos salia en ese momento. <br>
+Influenciados por la musica que conociamos y podiamos acceder (no estaba internet a nuestro alcance) con una mezcla de Ramones, Green Day, Offspring, Metallica, Ac/dc, Los Fabulosos Cadillacs. 
+Comenzamos con una formacion compuesta por Mauro en Voz , Lucas en Bajo , German en Bateria  y Sergio en Guitarra.</p>  </section>
+</div>    
+<section>
     <div class="carrusel">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -68,13 +83,13 @@
 
   </main>
   <footer class="container-fluid footer">
-    <div class="row">
-      <div class="col-lg-3 col-md-2 col-sm12  d-flex justify-content-left">
-      
-      <div><p class="textofooter">Seguinos en nuestras redes</p></div>
+    <div class="row"> 
+      <div class="col-lg-3 col-md-2 col-sm12  d-flex justify-content-center">
+      <div><span class="text-white">Seguinos en nuestras redes</span></div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm12 d-flex justify-content-center" class="iconos">
         <a href="https:www.instagram.com/hakunarevival " target="_blank">
+          <i class="fa-brands fa-facebook"></i>
           <img src="../Imagenes/Instagram logo mini.png" alt="logo instagram" class="iconosredes"></a>
         <a href="https:www.facebook.com" target="_blank">
             <img src="../Imagenes/logo facebook mini.png" alt="Logo Facebook" class="iconosredes"></a>
