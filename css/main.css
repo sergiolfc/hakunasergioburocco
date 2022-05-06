@@ -1,0 +1,126 @@
+.card-body {
+  color: white;
+  align-items: center;
+  font-family: 'Encode Sans SC', sans-serif;
+  font-family: 'Red Rose', cursive;
+  font-size: x-large; }
+
+.card {
+  background-color: rgba(0, 0, 0, 0); }
+
+.nav-link {
+  color: white !important; }
+
+/* animacion navbar */
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  z-index: 1; }
+
+.nav-link:before {
+  content: "";
+  background: rgba(231, 49, 49, 0.185);
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  animation: .8s no-hover;
+  animation-fill-mode: forwards;
+  z-index: -1; }
+
+.nav-link:hover:before,
+.nav-link:focus:before {
+  animation: .4s hover linear;
+  animation-fill-mode: forwards; }
+
+@keyframes hover {
+  0% {
+    transform: scaleX(0);
+    height: 5px; }
+  45% {
+    transform: scaleX(1.05);
+    height: 5px; }
+  55% {
+    height: 5px; }
+  100% {
+    transform: scaleX(1.05);
+    height: 100%; } }
+
+@keyframes no-hover {
+  0% {
+    transform: scaleX(1.05);
+    height: 100%; }
+  45% {
+    height: 5px; }
+  55% {
+    transform: scaleX(1.05);
+    height: 5px;
+    opacity: 1; }
+  100% {
+    transform: scaleX(0);
+    height: 5px;
+    opacity: .02; } }
+
+.logobanda {
+  width: 100px;
+  margin-left: 20px; }
+
+h1 {
+  color: #fafafa;
+  text-align: center;
+  margin-top: -100px;
+  font-family: 'Encode Sans SC', sans-serif;
+  font-family: 'Red Rose', cursive;
+  animation-duration: 2s;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+.logofooter {
+  width: 70px; }
+
+.iconosredes {
+  width: 30px;
+  display: flex;
+  margin-inline-end: 20px;
+  margin-top: 20px; }
+
+.textofooter {
+  color: white;
+  font-size: 16px; }
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center; }
+
+.text-white {
+  font-size: 10px;
+  margin: 20px; }
+
+body {
+  margin: 0%;
+  padding: 0%;
+  min-height: 100vh;
+  background-color: black;
+  background-image: url(/Imagenes/fondopagina2.jpg); }
+
+.carrusel {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 15px; }
+
+.textoBio {
+  color: white;
+  padding: 5%; }
