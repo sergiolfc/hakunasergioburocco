@@ -1,0 +1,11 @@
+.main-gridfv{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 15PX;
+    gap: 40px;
+}
+.galeria__imagen{
+    width: 500px;
+    height: 300;
+}

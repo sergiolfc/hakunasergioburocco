@@ -1,7 +1,10 @@
 body{
     margin:0%;
     padding:0%;
-    min-height: 100vh;
     background-color: $color-background;
     background-image: url(/Imagenes/fondopagina2.jpg);
-}
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} 
