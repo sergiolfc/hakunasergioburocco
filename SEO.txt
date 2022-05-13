@@ -1,0 +1,29 @@
+MAP GET usado con colores - mapa en _variables.scss
+Extend usado en _index.html  class .cardt-text 
+Mixin utilizado en _fotos.scss class .galeria_imagen
+
+index.html 
+Description: Pagina principal sobre todo lo que tenes que saber sobre la banda Hakuna 
+Keywords: content="Banda, Rock, Hakuna, Musica,presentacion
+Titulo: Hakuna Web
+
+bio.html
+Description: Te contamos un poco quienes somos en esta pequeña biografia de la banda 
+Keywords: Banda, Rock, Hakuna, Musica, biografia, fotos,antiguas
+Titulo Hakuna Bio
+
+fotos.html 
+Description: Un repaso por las mejores imagenes de la banda en vivo 
+Keywords: Banda, Rock, Hakuna, Musica, biografia, fotos, live, recital, concierto
+Titulo: Hakuna Fotos 
+
+
+videos.html
+Description: Mira nuestros nmejores videos
+Keywords: Banda, Rock, Hakuna, Musica, biografia, videos, live, recital, concierto
+Titulo: Hakuna Videos 
+
+fechas.html
+Description:Enterate las proximas fechas de nuestros recitales 
+Keywords: Banda, Rock, Hakuna, Musica, vivo, live, recital, fechas
+Titulo: Hakuna Fechas

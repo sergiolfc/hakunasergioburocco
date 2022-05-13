@@ -1,12 +1,10 @@
-@media (max-width: 600px) {
-    .mapa{
-        height: 400px;
-        width: 300px;
-        display: flex;
-        align-self: center;
-    }
-    }
-
-    .card-text{
-        color:aqua
-    }
+.logofechas{
+    @include sizes(200px,200px); 
+  
+}
+.mb-3{
+    display: flex;
+    align-items: center;
+    padding:40px;
+    
+}

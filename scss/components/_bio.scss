@@ -4,6 +4,6 @@
      margin-top: 15px;
 }
 .textoBio{
-    color:$color-letras;
+    color:map-get($estilos, letras);
     padding: 5%;
 }
