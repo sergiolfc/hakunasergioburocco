@@ -1,21 +1,16 @@
-.card-body{
-     color: rgb(255, 255, 255);  
+.imagenIndex{
+    width: 550px;
+   
+}
+
+.textoIndex{
+    color:white;
     text-align: center;
-    font-family: 'Encode Sans SC', sans-serif;
-    font-family: 'Red Rose', cursive;
-    font-size: x-large;
-    }
-    .card{
-        background-color: rgba(0, 0, 0, 0);
-    }
 
-    .card-img-top{
-        padding: 20px;
-    }
+}
 
-    .card-text{
-
-        @extend .text-white;
-        color:rgb(0, 68, 255);
-
-    }
+.indexMain{
+    display:flex;
+    justify-content: center;
+    margin-top: 5%;
+}

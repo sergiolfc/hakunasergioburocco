@@ -4,7 +4,8 @@
 }
 
 .nav-link{
-    color:map-get($estilos, letras) !important
+    color:map-get($estilos, letras) !important;
+    padding-top:30px;
 }
 /* animacion navbar */
 .nav-link {
@@ -45,14 +46,14 @@
     }
 
     .logobanda{
-        width: 100px;
-         margin-left: 20px;
+        width: 80px;
+        
      }
      
      h1{
         color:map-get($estilos, letras);
         text-align: center;
-        margin-top: -100px;
+        margin-top: -80px;
         font-family: 'Krona One', sans-serif;
         animation-duration: 2s;
         animation-name: slidein;
@@ -69,3 +70,5 @@
           width: 100%;
         }
         } 
+    
+ 
