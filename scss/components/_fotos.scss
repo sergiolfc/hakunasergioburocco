@@ -3,9 +3,10 @@
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     margin-top: 15PX;
-    gap: 15px;
+    gap: 10px;
+   
 }
 .galeria__imagen{
-    @include sizes(450px,300px) 
+    @include sizes(450px,250px) 
     
 }
