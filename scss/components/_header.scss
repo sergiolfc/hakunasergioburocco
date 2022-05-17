@@ -4,8 +4,11 @@
 }
 
 .nav-link{
+  
     color:map-get($estilos, letras) !important;
     padding-top:30px;
+    
+    
 }
 /* animacion navbar */
 .nav-link {
@@ -49,7 +52,12 @@
         width: 80px;
         
      }
-     
+     .nav-item{
+       font-size: larger;
+       font-weight: 400;
+       
+     }  
+
      h1{
         color:map-get($estilos, letras);
         text-align: center;
@@ -57,6 +65,7 @@
         font-family: 'Krona One', sans-serif;
         animation-duration: 2s;
         animation-name: slidein;
+        font-size: 50px;
       }
       
       @keyframes slidein {

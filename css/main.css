@@ -1,3 +1,7 @@
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 30px; } }
+
 .imagenIndex {
   width: 550px; }
 
@@ -70,13 +74,18 @@
 .logobanda {
   width: 80px; }
 
+.nav-item {
+  font-size: larger;
+  font-weight: 400; }
+
 h1 {
   color: white;
   text-align: center;
   margin-top: -80px;
   font-family: 'Krona One', sans-serif;
   animation-duration: 2s;
-  animation-name: slidein; }
+  animation-name: slidein;
+  font-size: 50px; }
 
 @keyframes slidein {
   from {
