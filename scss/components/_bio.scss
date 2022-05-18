@@ -8,3 +8,10 @@
     padding: 5%;
     margin-bottom: -10px;
 }
+
+@media  (max-width:768px) {
+    .carrusel{
+        width: 80%;
+        margin-top: 15px;
+}
+}

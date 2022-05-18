@@ -2,7 +2,13 @@
     display:flex;
     justify-content: center;
     justify-content: space-around;
-    margin-top:20px;
     flex-wrap: wrap;
-    margin: 40px;
+    margin-top: 50px;
+    }
+
+    @media  (max-width:768px) {
+        .videos {
+            width:300px;
+        }
+   
     }

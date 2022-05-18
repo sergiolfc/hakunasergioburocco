@@ -1,7 +1,4 @@
-.header{
-  
 
-}
 
 .nav-link{
   
@@ -14,7 +11,7 @@
 .nav-link {
     position: relative;
     text-decoration: none;
-    color: #333;
+    color: rgb(209, 53, 53);
     z-index: 1;
     }
     .nav-link:before {
@@ -55,8 +52,7 @@
      .nav-item{
        font-size: larger;
        font-weight: 400;
-       
-     }  
+       }  
 
      h1{
         color:map-get($estilos, letras);
@@ -81,3 +77,20 @@
         } 
     
  
+        @media  (max-width:768px) {
+          .titulo{
+            font-size: 25px;
+            margin-top: -50px;
+            
+          }
+          .imagenIndex{
+              width:300px;
+          }
+          .logobanda{
+            width: 50px;
+          }
+          .nav-item{
+            font-size: small;
+          }
+          }
+      

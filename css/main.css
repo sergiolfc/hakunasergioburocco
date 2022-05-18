@@ -1,7 +1,3 @@
-@media only screen and (max-width: 768px) {
-  h1 {
-    font-size: 30px; } }
-
 .imagenIndex {
   width: 550px; }
 
@@ -22,7 +18,7 @@
 .nav-link {
   position: relative;
   text-decoration: none;
-  color: #333;
+  color: #d13535;
   z-index: 1; }
 
 .nav-link:before {
@@ -95,6 +91,17 @@ h1 {
     margin-left: 0%;
     width: 100%; } }
 
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 25px;
+    margin-top: -50px; }
+  .imagenIndex {
+    width: 300px; }
+  .logobanda {
+    width: 50px; }
+  .nav-item {
+    font-size: small; } }
+
 .iconosredes {
   width: 35px;
   height: 35px;
@@ -137,6 +144,11 @@ body {
   padding: 5%;
   margin-bottom: -10px; }
 
+@media (max-width: 768px) {
+  .carrusel {
+    width: 80%;
+    margin-top: 15px; } }
+
 .main-gridfv {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -147,6 +159,20 @@ body {
 .galeria__imagen {
   height: 250px;
   width: 450px; }
+
+.main-gridfv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center; }
+
+@media (max-width: 768px) {
+  .main-gridfv {
+    display: grid;
+    grid-template-columns: 1fr; }
+  .galeria__imagen {
+    height: 180px;
+    width: 300px; } }
 
 .mainContactos {
   display: flex;
@@ -183,6 +209,9 @@ body {
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  margin-top: 20px;
   flex-wrap: wrap;
-  margin: 40px; }
+  margin-top: 50px; }
+
+@media (max-width: 768px) {
+  .videos {
+    width: 300px; } }

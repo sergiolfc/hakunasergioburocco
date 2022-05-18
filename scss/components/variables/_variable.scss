@@ -1,10 +1,7 @@
+
+
 @mixin  sizes($width, $height) {
  height: $height;
  width: $width;   
 }
 
-@media only screen and (max-width: 768px) {
-h1{
-    font-size: 30px;
-}
-}
